@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/azmi', function () {
+Route::get('/', function () {
     return view('home', [
         'name' => 'Muhammad Azmi',
     ]);
